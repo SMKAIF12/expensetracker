@@ -42,7 +42,7 @@ public class register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(register.this,"REGISTRATION SUCCESFUL",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(register.this,"REGISTRATION SUCCESSFUL",Toast.LENGTH_SHORT).show();
                             Intent intent=new Intent(register.this,MainActivity.class);
                             startActivity(intent);
                         }
